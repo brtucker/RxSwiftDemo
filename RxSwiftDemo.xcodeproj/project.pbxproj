@@ -47,8 +47,24 @@
 		D8AE7FE31C9A543800D28D65 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D8AE7FDB1C9A543400D28D65 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D8AE7FF91C9A54B600D28D65 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8AE7FDA1C9A543400D28D65 /* RxCocoa.framework */; };
 		D8AE7FFA1C9A54B600D28D65 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8AE7FDB1C9A543400D28D65 /* RxSwift.framework */; };
-		D8AE7FFC1C9A54C600D28D65 /* RxCocoa.framework in Resources */ = {isa = PBXBuildFile; fileRef = D8AE7FDA1C9A543400D28D65 /* RxCocoa.framework */; };
-		D8AE7FFD1C9A54C600D28D65 /* RxSwift.framework in Resources */ = {isa = PBXBuildFile; fileRef = D8AE7FDB1C9A543400D28D65 /* RxSwift.framework */; };
+		D8AE80041C9A56F800D28D65 /* MockGitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE80001C9A56F800D28D65 /* MockGitHubAPI.swift */; };
+		D8AE80051C9A56F800D28D65 /* MockWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE80011C9A56F800D28D65 /* MockWireframe.swift */; };
+		D8AE80061C9A56F800D28D65 /* NotImplementedStubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE80021C9A56F800D28D65 /* NotImplementedStubs.swift */; };
+		D8AE80071C9A56F800D28D65 /* ValidationResult+Equatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE80031C9A56F800D28D65 /* ValidationResult+Equatable.swift */; };
+		D8AE80091C9A573F00D28D65 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE80081C9A573F00D28D65 /* Protocols.swift */; };
+		D8AE800B1C9A578900D28D65 /* GithubSignupViewModel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE800A1C9A578900D28D65 /* GithubSignupViewModel2.swift */; };
+		D8AE800D1C9A579E00D28D65 /* DefaultImplementations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE800C1C9A579E00D28D65 /* DefaultImplementations.swift */; };
+		D8AE80101C9A57C500D28D65 /* GitHubSignupViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE800E1C9A57C500D28D65 /* GitHubSignupViewController1.swift */; };
+		D8AE80111C9A57C500D28D65 /* GithubSignupViewModel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE800F1C9A57C500D28D65 /* GithubSignupViewModel1.swift */; };
+		D8AE80131C9A57F100D28D65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE80121C9A57F100D28D65 /* ViewController.swift */; };
+		D8AE80151C9A581400D28D65 /* Wireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE80141C9A581400D28D65 /* Wireframe.swift */; };
+		D8AE80171C9A583C00D28D65 /* BindingExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE80161C9A583C00D28D65 /* BindingExtensions.swift */; };
+		D8AE80191C9A585300D28D65 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE80181C9A585300D28D65 /* ActivityIndicator.swift */; };
+		D8AE801B1C9A587700D28D65 /* String+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8AE7FA81C9A503D00D28D65 /* String+URL.swift */; };
+		D8AE801D1C9A58D000D28D65 /* RxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8AE801C1C9A58D000D28D65 /* RxTests.framework */; };
+		D8AE80201C9A5C0B00D28D65 /* RxTests.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8AE801C1C9A58D000D28D65 /* RxTests.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D8AE80211C9A5C0B00D28D65 /* RxCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8AE7FDA1C9A543400D28D65 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D8AE80221C9A5C0B00D28D65 /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8AE7FDB1C9A543400D28D65 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +96,18 @@
 				D8AE7FE31C9A543800D28D65 /* RxSwift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8AE801F1C9A5C0100D28D65 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				D8AE80201C9A5C0B00D28D65 /* RxTests.framework in CopyFiles */,
+				D8AE80211C9A5C0B00D28D65 /* RxCocoa.framework in CopyFiles */,
+				D8AE80221C9A5C0B00D28D65 /* RxSwift.framework in CopyFiles */,
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -126,6 +154,20 @@
 		D8AE7FD91C9A543400D28D65 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
 		D8AE7FDA1C9A543400D28D65 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
 		D8AE7FDB1C9A543400D28D65 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		D8AE80001C9A56F800D28D65 /* MockGitHubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockGitHubAPI.swift; sourceTree = "<group>"; };
+		D8AE80011C9A56F800D28D65 /* MockWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockWireframe.swift; sourceTree = "<group>"; };
+		D8AE80021C9A56F800D28D65 /* NotImplementedStubs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotImplementedStubs.swift; sourceTree = "<group>"; };
+		D8AE80031C9A56F800D28D65 /* ValidationResult+Equatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ValidationResult+Equatable.swift"; sourceTree = "<group>"; };
+		D8AE80081C9A573F00D28D65 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		D8AE800A1C9A578900D28D65 /* GithubSignupViewModel2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubSignupViewModel2.swift; sourceTree = "<group>"; };
+		D8AE800C1C9A579E00D28D65 /* DefaultImplementations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultImplementations.swift; sourceTree = "<group>"; };
+		D8AE800E1C9A57C500D28D65 /* GitHubSignupViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GitHubSignupViewController1.swift; sourceTree = "<group>"; };
+		D8AE800F1C9A57C500D28D65 /* GithubSignupViewModel1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GithubSignupViewModel1.swift; sourceTree = "<group>"; };
+		D8AE80121C9A57F100D28D65 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D8AE80141C9A581400D28D65 /* Wireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wireframe.swift; sourceTree = "<group>"; };
+		D8AE80161C9A583C00D28D65 /* BindingExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindingExtensions.swift; sourceTree = "<group>"; };
+		D8AE80181C9A585300D28D65 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		D8AE801C1C9A58D000D28D65 /* RxTests.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTests.framework; path = Carthage/Build/iOS/RxTests.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +185,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8AE801D1C9A58D000D28D65 /* RxTests.framework in Frameworks */,
 				D8AE7FF91C9A54B600D28D65 /* RxCocoa.framework in Frameworks */,
 				D8AE7FFA1C9A54B600D28D65 /* RxSwift.framework in Frameworks */,
 			);
@@ -161,6 +204,7 @@
 		D8AE7F541C98F43900D28D65 = {
 			isa = PBXGroup;
 			children = (
+				D8AE801C1C9A58D000D28D65 /* RxTests.framework */,
 				D8AE7FD91C9A543400D28D65 /* RxBlocking.framework */,
 				D8AE7FDA1C9A543400D28D65 /* RxCocoa.framework */,
 				D8AE7FDB1C9A543400D28D65 /* RxSwift.framework */,
@@ -201,6 +245,8 @@
 		D8AE7F741C98F43900D28D65 /* RxSwiftDemoTests */ = {
 			isa = PBXGroup;
 			children = (
+				D8AE801A1C9A585D00D28D65 /* Helpers */,
+				D8AE7FFF1C9A56EA00D28D65 /* Mocks */,
 				D8AE7F981C9A46B400D28D65 /* TestScheduler+MarbleTests.swift */,
 				D8AE7F751C98F43900D28D65 /* RxSwiftDemoTests.swift */,
 				D8AE7F771C98F43900D28D65 /* Info.plist */,
@@ -269,6 +315,33 @@
 			name = DataSources;
 			sourceTree = "<group>";
 		};
+		D8AE7FFF1C9A56EA00D28D65 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				D8AE80001C9A56F800D28D65 /* MockGitHubAPI.swift */,
+				D8AE80011C9A56F800D28D65 /* MockWireframe.swift */,
+				D8AE80021C9A56F800D28D65 /* NotImplementedStubs.swift */,
+				D8AE80031C9A56F800D28D65 /* ValidationResult+Equatable.swift */,
+			);
+			name = Mocks;
+			sourceTree = "<group>";
+		};
+		D8AE801A1C9A585D00D28D65 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D8AE80181C9A585300D28D65 /* ActivityIndicator.swift */,
+				D8AE80161C9A583C00D28D65 /* BindingExtensions.swift */,
+				D8AE80141C9A581400D28D65 /* Wireframe.swift */,
+				D8AE80121C9A57F100D28D65 /* ViewController.swift */,
+				D8AE800E1C9A57C500D28D65 /* GitHubSignupViewController1.swift */,
+				D8AE800F1C9A57C500D28D65 /* GithubSignupViewModel1.swift */,
+				D8AE800C1C9A579E00D28D65 /* DefaultImplementations.swift */,
+				D8AE800A1C9A578900D28D65 /* GithubSignupViewModel2.swift */,
+				D8AE80081C9A573F00D28D65 /* Protocols.swift */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -297,6 +370,8 @@
 				D8AE7F6D1C98F43900D28D65 /* Sources */,
 				D8AE7F6E1C98F43900D28D65 /* Frameworks */,
 				D8AE7F6F1C98F43900D28D65 /* Resources */,
+				D8AE801F1C9A5C0100D28D65 /* CopyFiles */,
+				D8AE80231C9A5D2C00D28D65 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -385,8 +460,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8AE7FFC1C9A54C600D28D65 /* RxCocoa.framework in Resources */,
-				D8AE7FFD1C9A54C600D28D65 /* RxSwift.framework in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +471,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D8AE80231C9A5D2C00D28D65 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D8AE7F591C98F43900D28D65 /* Sources */ = {
@@ -437,8 +526,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8AE801B1C9A587700D28D65 /* String+URL.swift in Sources */,
 				D8AE7FCE1C9A528A00D28D65 /* TestScheduler+MarbleTests.swift in Sources */,
+				D8AE80191C9A585300D28D65 /* ActivityIndicator.swift in Sources */,
+				D8AE80041C9A56F800D28D65 /* MockGitHubAPI.swift in Sources */,
+				D8AE80091C9A573F00D28D65 /* Protocols.swift in Sources */,
+				D8AE80051C9A56F800D28D65 /* MockWireframe.swift in Sources */,
 				D8AE7F761C98F43900D28D65 /* RxSwiftDemoTests.swift in Sources */,
+				D8AE80111C9A57C500D28D65 /* GithubSignupViewModel1.swift in Sources */,
+				D8AE80151C9A581400D28D65 /* Wireframe.swift in Sources */,
+				D8AE80171C9A583C00D28D65 /* BindingExtensions.swift in Sources */,
+				D8AE80131C9A57F100D28D65 /* ViewController.swift in Sources */,
+				D8AE80071C9A56F800D28D65 /* ValidationResult+Equatable.swift in Sources */,
+				D8AE800D1C9A579E00D28D65 /* DefaultImplementations.swift in Sources */,
+				D8AE800B1C9A578900D28D65 /* GithubSignupViewModel2.swift in Sources */,
+				D8AE80061C9A56F800D28D65 /* NotImplementedStubs.swift in Sources */,
+				D8AE80101C9A57C500D28D65 /* GitHubSignupViewController1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,9 +709,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(inherited)/**",
+					"$(SRCROOT)/Carthage/Build/iOS/**",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks/**",
 				);
 				INFOPLIST_FILE = RxSwiftDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -622,9 +728,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Carthage/Build/iOS",
+					"$(inherited)/**",
+					"$(SRCROOT)/Carthage/Build/iOS/**",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks/**",
 				);
 				INFOPLIST_FILE = RxSwiftDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
