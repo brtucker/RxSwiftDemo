@@ -7,9 +7,16 @@
 //
 
 import XCTest
-@testable import RxSwiftDemo
+
+import RxSwift
+import RxTests
+import RxCocoa
+
+
+let resolution: NSTimeInterval = 0.2 // seconds
 
 class RxSwiftDemoTests: XCTestCase {
+    
     
     override func setUp() {
         super.setUp()
